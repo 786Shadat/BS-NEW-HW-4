@@ -1,0 +1,53 @@
+/* 
+Template Name: Aytor
+version: 1.0.0
+Author: Aytor
+Author URI: 
+
+Table of content
+=============================
+=> Home Page
+***************
+ 1) Nav section
+ 2) Benner section
+ 
+*/
+/* common css file start */
+body{    
+font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, a, button {
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+small, span,
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+/* common css file end */
+#myNav ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #11161E;
+    transition: .7s;
+}
+#myNav ul li:hover a{
+    color: #FF6F61;
+}
+#myNav i{
+    padding: 0 12px;
+    color: #151A32;
+}
